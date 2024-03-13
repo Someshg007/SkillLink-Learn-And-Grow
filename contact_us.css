@@ -1,0 +1,151 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.container h1
+{
+text-align: center;
+color: #36558F;
+}
+.parent-1
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    grid-auto-rows: 400px;
+    grid-auto-columns: 50px;
+    column-gap: 10px;
+    
+}
+.cont-form
+{
+  background-color: rgb(255, 255, 255);
+  border: .5px solid rgba(94, 94, 94, 0.832);
+  padding: 5px;
+border-radius: 10px;
+color: #36558F;
+font-size: 18px;
+font-weight: 600;
+}
+.cont-form:hover
+{
+ box-shadow: 0px 0px 10px black;
+}
+.cont-img
+{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.child-1-1 img
+{
+    width: 90%;
+    height: 100%;
+}
+.cont-form input
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 15px;
+    border: .5px solid black;
+    border-radius: 10px;
+    padding: 4px;
+    margin-left: 10px;
+}
+.cont-form textarea
+{
+  margin-left:10px;
+  border-radius:10px;
+  margin-bottom: 10px;
+  width: 90%;
+}
+.cont-form textarea:hover
+{
+    box-shadow: 0px 0px 10px black;
+}
+.cont-form input:hover
+{
+    box-shadow: 0px 0px 10px black;
+ 
+}
+.form-btn
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.cont-h1
+{
+    display: flex;
+    justify-content: center;
+
+}
+.cont-h1 i
+{
+   font-size: 35px;
+   margin-left: 10px;
+   color: #36558F;
+}
+.cont-h1 h1
+{
+   margin-left: 10px;
+}
+.parent-2
+{
+    display: grid;
+    grid-template-columns:repeat(auto-fill,minmax(400px,1fr));
+    grid-auto-rows: 300px;
+}
+
+.child-2-1 i
+{
+color: #000000;
+
+
+}
+.social-ico 
+{
+    display: flex;
+    justify-content: space-evenly;
+
+ 
+}
+
+.social-ico i:hover
+{
+    color: #36558F;
+}
+
+.child-2-2 iframe
+{
+width:100%;
+height: 100%;
+}
+.call
+{
+    display: flex;
+    flex-direction: column;
+}
+h4
+{
+    color: #36558F;
+  
+   
+}
+.child-2-2
+{
+border: 2px solid black;
+border-radius: 5px;
+}
+.child-2-2:hover
+{
+box-shadow: 0px 0px 20px black;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    color: #36558F;
+}

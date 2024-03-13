@@ -1,0 +1,67 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background-image: url("16282276_rm222batch2-mind-03.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+   
+}
+.container
+{
+    height: 500px;
+    width: 400px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.container:hover
+{
+    /* box-shadow: 0px 0px 40px rgb(142, 189, 230); */
+    filter: drop-shadow(0px 0px 60px rgba(0, 0, 0, 0.467));
+}
+button
+{
+    width: 80%;
+    text-align: center;
+}
+.form-check
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+#show input
+{
+   font-size: 16px;
+   font-weight: 500;
+}
+.container2
+{
+    border: 0.5px solid rgba(0, 0, 0, 0.26);
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+.container2 a
+{
+    text-decoration: none;
+}
+.social img
+{
+    margin-left: 10px;
+}
+@media screen and (min-width:200px) and (max-width:768px) {
+    body
+{
+    background-image: url("/Images/16282276_rm222batch2-mind-03.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    
+   
+}
+}

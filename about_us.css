@@ -1,0 +1,21 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.about_us
+{
+    margin-left:10px ;
+}
+/* h1
+{
+   border-bottom: 1px solid black;
+   border-bottom-width: 2px;
+   width: 45%;
+} */
+.cont-main .row img
+{
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.5)) !important;
+} 
+.fs-4
+{
+    font-weight: 700 !important;
+}
